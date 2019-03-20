@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>MultiSelect</title>
+    <link rel="stylesheet" href="chosen.min.css">
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="chosen.jquery.min.js"></script>
+   
+</head>
+<body>
+    <form>
+        <select id="mselect" multiple="" style="width: 900px">
+            <option>Alaska</option>
+             <option>Arizona</option>
+              <option>California</option>
+               <option>Colorado</option>
+                <option>Florida</option>
+                 <option>Georgia</option>
+                  <option>Hawaii</option>
+                   <option>Indiana</option>
+                    <option>Montana</option>
+                     <option>New York</option>
+                      <option>Oregon</option>
+                       <option>Texas</option>
+                        <option>Virginia</option>
+        </select>
+    </form>
+    
+    <script type="text/javascript">
+       $(document).ready(function(){
+           $('#mselect').chosen();
+       })
+    </script>
+</body>
+</html>
